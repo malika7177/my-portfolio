@@ -5,10 +5,10 @@ import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
 import twitterDark from '../../assets/twitter-dark.svg';
+import telegramDark from '../../assets/telegram.svg'
+import telegramLight from '../../assets/telegramLight.svg'
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
-import linkedinLight from '../../assets/linkedin-light.svg';
-import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/CV.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -18,7 +18,7 @@ function Hero() {
   const themeIcon = theme === 'light' ? sun : moon;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const telegram = theme === 'light' ? telegramDark : telegramLight;
   const logo = theme === 'light' ? heroImg : heroImgDark;
 
   return (
@@ -50,8 +50,8 @@ function Hero() {
           <a href="https://github.com/malika7177" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
-            <img src={linkedinIcon} alt="Linkedin icon" />
+          <a href="https://t.me/Djurayeva_M7177" target="_blank">
+            <img src={telegram} alt="Telegram icon" />
           </a>
         </span>
         <p className={styles.description}>
