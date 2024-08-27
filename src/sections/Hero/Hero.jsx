@@ -9,7 +9,7 @@ import telegramDark from '../../assets/telegram.svg'
 import telegramLight from '../../assets/telegramLight.svg'
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
-import CV from '../../assets/CV.pdf';
+import CV from '../../assets/CV.pdf'
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
