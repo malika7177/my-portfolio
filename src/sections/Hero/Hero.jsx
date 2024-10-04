@@ -50,7 +50,7 @@ function Hero() {
           <a href="https://github.com/malika7177" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://t.me/Djurayeva_M7177" target="_blank">
+          <a href="https://t.me/malikadjrv" target="_blank">
             <img src={telegram} alt="Telegram icon" />
           </a>
         </span>

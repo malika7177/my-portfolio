@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import cake from '../../assets/cake.png';
 import coaching from '../../assets/coaching.png';
 import hotel from '../../assets/hotel.png';
-import fitLift from '../../assets/fitlift.png';
+import netflix from '../../assets/netflix.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -29,10 +29,10 @@ function Projects() {
           p="Hotel website"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://fitnes-website.vercel.app/"
-          h3="FitLift"
-          p="Fitness App"
+          src={netflix}
+          link="https://netflix-clone-website-mu.vercel.app/"
+          h3="Netflix"
+          p="Netflix Clone App"
         />
       </div>
     </section>
